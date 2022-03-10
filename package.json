@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/airman-dotcom/Voice/issues"
   },
-  "homepage": "https://github.com/airman-dotcom/Voice#readme"
+  "homepage": "https://github.com/airman-dotcom/Voice#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "http": "^0.0.1-security",
+    "youtube-search": "^1.1.6"
+  }
 }
