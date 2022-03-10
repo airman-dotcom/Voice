@@ -1,6 +1,6 @@
 const express = require("express");
 const http = require("http");
-const port = proccess.env.PORT || 3000
+const port = process.env.PORT || 3000
 const search = require("youtube-search")
 const app = express();
 const server = http.createServer(app);
