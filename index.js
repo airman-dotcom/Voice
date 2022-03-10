@@ -1,6 +1,6 @@
 const express = require("express");
 const http = require("http");
-
+const port = proccess.env.PORT || 3000
 const search = require("youtube-search")
 const app = express();
 const server = http.createServer(app);
@@ -17,7 +17,7 @@ app.get("*", (req, res) => {
     res.sendFile(__dirname + "/public/index.html")
 })
 
-server.listen(3000, "localhost", () => {
+server.listen(port, () => {
     console.log("Server started.")
 })
 
