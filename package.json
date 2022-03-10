@@ -1,0 +1,19 @@
+{
+  "name": "voice",
+  "version": "1.0.0",
+  "description": "Use your voice",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/airman-dotcom/Voice.git"
+  },
+  "author": "Arman Akbari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/airman-dotcom/Voice/issues"
+  },
+  "homepage": "https://github.com/airman-dotcom/Voice#readme"
+}
